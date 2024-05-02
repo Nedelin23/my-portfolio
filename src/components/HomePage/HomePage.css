@@ -30,8 +30,7 @@ hr {
 }
 
 .about-section {
-    width: 50%;
-    margin: 0 auto;
+    margin: 24px 25%;
     display: flex;
     gap: 16px;
 }
@@ -43,7 +42,6 @@ hr {
 }
 
 .portfolio-container {
-    width: 50%;
     margin: 24px 25%;
     display: flex;
     gap: 16px;
@@ -51,10 +49,18 @@ hr {
 }
 
 @media (max-width: 768px) {
+    .top-section {
+        height: auto;
+    }
+
     .portfolio-container {
         flex-direction: column;
         padding: 0 24px;
         margin: 0;
+    }
+
+    .about-section {
+        margin: 0 24px;
     }
 
     hr {
