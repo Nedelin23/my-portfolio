@@ -1,0 +1,63 @@
+.top-section {
+    color: rgba(255, 255, 255, 0.87);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-section {
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff; /* Example color for the second page */
+}
+
+.subtitle {
+    font-size: 14px;
+    margin: 0;
+}
+
+.contact-button {
+    border-radius: 10px;
+    background-color: #EBCCB8;
+    padding: 8px 16px;
+}
+
+hr {
+    margin: 24px 25%;
+    height: 1px;
+    background-color: white;
+}
+
+.about-section {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    gap: 16px;
+}
+
+.about-section img {
+    width: 100px;
+    height: 100px;
+    margin-top: 16px;
+}
+
+.portfolio-container {
+    width: 50%;
+    margin: 24px 25%;
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .portfolio-container {
+        flex-direction: column;
+        padding: 0 24px;
+        margin: 0;
+    }
+
+    hr {
+        margin: 0 24px;
+    }
+}

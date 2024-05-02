@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 20px ;
+    color: white;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.menu li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.burger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        /* TODO FIX LATER */
+        display: none; 
+    }
+}
